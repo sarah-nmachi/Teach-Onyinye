@@ -5,7 +5,7 @@ pipeline {
     stages {
        stage('Cloning Git') {
       steps {
-        git 'https://github.com/sarah-nmachi/simple-node-js-react-npm-app.git'
+        git 'https://github.com/sarah-nmachi/Teach-Onyinye.git'
       }
     }
         stage('Build') { 
